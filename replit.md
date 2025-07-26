@@ -88,3 +88,21 @@ The application is configured for deployment with:
    - Integrated development experience with Replit support
 
 The portfolio currently functions as a static showcase with prepared backend infrastructure for future dynamic features like contact forms, blog posts, or user authentication.
+
+## Recent Changes: Latest modifications with dates
+
+### July 26, 2025 - Vercel Deployment Setup
+- Built static version of portfolio for Vercel deployment
+- Moved built files (index.html, assets/) to root directory for proper static site structure
+- Updated HTML meta tags to reflect "Software Engineering Student" status
+- Created comprehensive README.md with deployment instructions for Vercel and GitHub Pages
+- Added vercel.json configuration for proper SPA routing on Vercel
+- Cleaned up project structure for optimal static site deployment
+- Portfolio now ready for immediate deployment on Vercel or GitHub Pages
+
+### July 26, 2025 - Content Authenticity Updates
+- Updated hero subtitle from "Backend Developer" to "Software Engineering Student"
+- Removed placeholder projects, showing only real MASM Debugger project
+- Added authentic LeetCode problem count: 270+ problems solved
+- Removed Experience/Certifications sections (not applicable yet)
+- Updated navigation to reflect authentic content structure
