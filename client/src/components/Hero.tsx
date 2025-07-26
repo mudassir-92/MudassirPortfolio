@@ -27,7 +27,7 @@ export function Hero() {
             transition={{ delay: 3.5, duration: 0.8 }}
             className="text-xl md:text-2xl text-primary font-semibold mb-6"
           >
-            Backend Developer | Open Source Contributor
+            Software Engineering Student | Open Source Contributor
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}

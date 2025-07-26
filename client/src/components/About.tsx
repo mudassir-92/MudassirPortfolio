@@ -43,9 +43,8 @@ export function About() {
           <motion.div variants={itemVariants} className="glass rounded-2xl p-8">
             <h3 className="text-2xl font-semibold text-slate-800 dark:text-white mb-6">My Journey</h3>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              I'm a backend developer and open source contributor with a passion for building 
-              efficient, scalable solutions. My journey began with curiosity about how systems work, 
-              which led me to specialize in backend technologies and data structures.
+              I'm a BS Software Engineering Student and open source contributor with a passion for building 
+              efficient, scalable solutions.
             </p>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
               Currently focused on mastering Java, C++, and Kotlin while contributing to open source 
@@ -58,7 +57,7 @@ export function About() {
             <div className="glass rounded-xl p-6 text-center hover:scale-105 transition-transform">
               <Code className="h-8 w-8 text-primary mx-auto mb-4" />
               <h4 className="font-semibold text-slate-800 dark:text-white">Specialization</h4>
-              <p className="text-sm text-slate-600 dark:text-slate-400">Backend Development</p>
+              <p className="text-sm text-slate-600 dark:text-slate-400">Nil</p>
             </div>
             <div className="glass rounded-xl p-6 text-center hover:scale-105 transition-transform">
               <Trophy className="h-8 w-8 text-primary mx-auto mb-4" />
