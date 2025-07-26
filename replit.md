@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a personal portfolio website for Alex Rodriguez, a BS Software Engineering student passionate about competitive programming. The application is built as a full-stack web application with a React frontend and Node.js/Express backend, featuring a modern glassmorphism design and comprehensive portfolio sections.
+This is a personal portfolio website for Mudassir Ashraf, a backend developer and open source contributor passionate about Java, C++, and Kotlin development. The application is built as a full-stack web application with a React frontend and Node.js/Express backend, featuring a modern glassmorphism design and comprehensive portfolio sections showcasing backend development expertise and open source contributions.
 
 ## User Preferences
 

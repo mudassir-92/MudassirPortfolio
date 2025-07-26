@@ -22,7 +22,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-slate-200 dark:border-slate-700">
         <div className="max-w-6xl mx-auto text-center text-slate-600 dark:text-slate-400">
-          <p>&copy; 2024 Alex Rodriguez. Built with passion and lots of coffee ☕</p>
+          <p>&copy; 2024 Mudassir Ashraf. Built with passion and dedication to clean code</p>
         </div>
       </footer>
     </div>

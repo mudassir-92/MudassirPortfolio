@@ -14,42 +14,28 @@ export function CompetitiveProgramming() {
       icon: Code,
       color: "bg-orange-500",
       hoverColor: "hover:bg-orange-600",
-      count: "200+",
-      metric: "Problems Solved",
+      count: "Active",
+      metric: "Problem Solver",
       stats: [
-        { label: "Easy:", value: "85", color: "text-green-500" },
-        { label: "Medium:", value: "95", color: "text-yellow-500" },
-        { label: "Hard:", value: "20", color: "text-red-500" }
+        { label: "Profile:", value: "mudassir_920", color: "text-orange-500 font-semibold" },
+        { label: "Focus:", value: "Data Structures", color: "text-slate-600 dark:text-slate-400" },
+        { label: "Languages:", value: "Java, C++", color: "text-slate-600 dark:text-slate-400" }
       ],
-      link: "#"
-    },
-    {
-      name: "CodeWars",
-      icon: Sword,
-      color: "bg-red-600",
-      hoverColor: "hover:bg-red-700",
-      count: "180+",
-      metric: "Katas Completed",
-      stats: [
-        { label: "Rank:", value: "5 kyu", color: "text-blue-500 font-semibold" },
-        { label: "Honor:", value: "2,450", color: "text-slate-600 dark:text-slate-400" },
-        { label: "Languages:", value: "Java, Python", color: "text-slate-600 dark:text-slate-400" }
-      ],
-      link: "#"
+      link: "https://leetcode.com/u/mudassir_920/"
     },
     {
       name: "GitHub",
       icon: Github,
       color: "bg-gray-800 dark:bg-gray-600",
       hoverColor: "hover:bg-gray-900 dark:hover:bg-gray-700",
-      count: "365",
-      metric: "Day Streak",
+      count: "Active",
+      metric: "Open Source Contributor",
       stats: [
-        { label: "Repositories:", value: "25", color: "text-slate-600 dark:text-slate-400" },
-        { label: "Contributions:", value: "1,200+", color: "text-slate-600 dark:text-slate-400" },
-        { label: "Followers:", value: "45", color: "text-slate-600 dark:text-slate-400" }
+        { label: "Username:", value: "mudassir-92", color: "text-gray-600 dark:text-gray-400 font-semibold" },
+        { label: "Focus:", value: "Backend Projects", color: "text-slate-600 dark:text-slate-400" },
+        { label: "Languages:", value: "Java, C++, Kotlin", color: "text-slate-600 dark:text-slate-400" }
       ],
-      link: "#"
+      link: "https://github.com/mudassir-92"
     }
   ];
 
@@ -77,14 +63,14 @@ export function CompetitiveProgramming() {
           transition={{ duration: 0.8 }}
           className="text-4xl font-bold text-center text-slate-800 dark:text-white mb-16"
         >
-          Competitive Programming
+          Coding Platforms & Open Source
         </motion.h2>
         
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          className="grid md:grid-cols-3 gap-8"
+          className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto"
         >
           {platforms.map((platform) => (
             <motion.div

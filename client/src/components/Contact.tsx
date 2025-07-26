@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Mail, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Github, Send, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -38,24 +38,24 @@ export function Contact() {
   const contactMethods = [
     {
       title: "Email",
-      value: "alex.rodriguez@email.com",
+      value: "gem920se@gmail.com",
       icon: Mail,
       color: "bg-red-500 hover:bg-red-600",
-      href: "mailto:alex.rodriguez@email.com"
+      href: "mailto:gem920se@gmail.com"
     },
     {
       title: "GitHub",
-      value: "@alexrodriguez",
+      value: "@mudassir-92",
       icon: Github,
       color: "bg-gray-800 dark:bg-gray-600 hover:bg-gray-900 dark:hover:bg-gray-700",
-      href: "https://github.com/alexrodriguez"
+      href: "https://github.com/mudassir-92"
     },
     {
-      title: "LinkedIn",
-      value: "Alex Rodriguez",
-      icon: Linkedin,
-      color: "bg-blue-600 hover:bg-blue-700",
-      href: "https://linkedin.com/in/alexrodriguez"
+      title: "LeetCode",
+      value: "mudassir_920",
+      icon: Code,
+      color: "bg-orange-500 hover:bg-orange-600",
+      href: "https://leetcode.com/u/mudassir_920/"
     }
   ];
 

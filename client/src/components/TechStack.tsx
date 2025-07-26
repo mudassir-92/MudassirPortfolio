@@ -21,12 +21,8 @@ export function TechStack() {
   const technologies = [
     { name: "Java", icon: Coffee, color: "text-orange-500" },
     { name: "C++", icon: SiCplusplus, color: "text-blue-500" },
-    { name: "Python", icon: SiPython, color: "text-blue-600" },
     { name: "Kotlin", icon: SiKotlin, color: "text-green-500" },
-    { name: "JavaScript", icon: SiJavascript, color: "text-yellow-500" },
-    { name: "React", icon: SiReact, color: "text-cyan-500" },
-    { name: "Node.js", icon: SiNodedotjs, color: "text-green-600" },
-    { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
+    { name: "Python", icon: SiPython, color: "text-blue-600" },
     { name: "Git", icon: SiGit, color: "text-orange-600" },
     { name: "Linux", icon: SiLinux, color: "text-gray-600" },
   ];
@@ -62,7 +58,7 @@ export function TechStack() {
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          className="grid grid-cols-2 md:grid-cols-5 gap-8"
+          className="grid grid-cols-2 md:grid-cols-3 gap-8"
         >
           {technologies.map((tech) => (
             <motion.div
