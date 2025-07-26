@@ -3,7 +3,7 @@ import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { TechStack } from "@/components/TechStack";
 import { Projects } from "@/components/Projects";
-import { CompetitiveProgramming } from "@/components/CompetitiveProgramming";
+import { LeetCodeStats } from "@/components/LeetCodeStats";
 import { Experience } from "@/components/Experience";
 import { Contact } from "@/components/Contact";
 
@@ -15,7 +15,7 @@ export default function Portfolio() {
       <About />
       <TechStack />
       <Projects />
-      <CompetitiveProgramming />
+      <LeetCodeStats />
       <Experience />
       <Contact />
       

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Mail, Github, Send, Code } from "lucide-react";
+import { Mail, Github, Send, Code2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -53,7 +53,7 @@ export function Contact() {
     {
       title: "LeetCode",
       value: "mudassir_920",
-      icon: Code,
+      icon: Code2,
       color: "bg-orange-500 hover:bg-orange-600",
       href: "https://leetcode.com/u/mudassir_920/"
     }

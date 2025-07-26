@@ -11,50 +11,50 @@ export function Projects() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack MERN application with payment integration, admin dashboard, and real-time inventory management.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["React", "Node.js", "MongoDB"],
-      github: "#",
+      title: "MASM Debugger",
+      description: "A comprehensive debugging tool for Microsoft Macro Assembler (MASM) programs. Features step-by-step execution, register monitoring, memory visualization, and assembly code analysis.",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: ["Assembly", "MASM", "Debugging", "Systems Programming"],
+      github: "https://github.com/mudassir-92/MASM_Debugger",
       demo: "#"
     },
     {
-      title: "Algorithm Visualizer",
-      description: "Interactive tool for visualizing sorting and pathfinding algorithms with customizable speed and array size.",
+      title: "Data Structures Library",
+      description: "Implementation of fundamental data structures in Java and C++. Includes linked lists, stacks, queues, trees, and hash tables with comprehensive test suites.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["JavaScript", "Canvas API", "Algorithms"],
+      tags: ["Java", "C++", "Data Structures", "Algorithms"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Social Connect",
-      description: "Real-time social media platform with posts, comments, messaging, and friend system built with Socket.io.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["React", "Socket.io", "Express"],
+      title: "Algorithm Practice Solutions",
+      description: "Collection of LeetCode and competitive programming solutions with detailed explanations and time complexity analysis.",
+      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: ["Java", "C++", "Algorithms", "Problem Solving"],
       github: "#",
       demo: "#"
     },
     {
-      title: "TaskFlow Manager",
-      description: "Kanban-style task management tool with drag-and-drop functionality, team collaboration, and progress tracking.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["React", "Redux", "DnD Kit"],
+      title: "Backend API Framework",
+      description: "Lightweight backend framework built with Java for rapid API development with built-in authentication and database abstraction.",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: ["Java", "REST API", "Backend", "Framework"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Weather Analytics",
-      description: "Comprehensive weather dashboard with 7-day forecasts, interactive maps, and weather pattern analysis.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["React", "APIs", "Charts.js"],
+      title: "Kotlin Android Utils",
+      description: "Collection of utility functions and extensions for Android development in Kotlin, focusing on performance and code reusability.",
+      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: ["Kotlin", "Android", "Mobile", "Utilities"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Crypto Portfolio Tracker",
-      description: "Real-time cryptocurrency portfolio tracker with price alerts, market analysis, and trading history.",
-      image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["React", "WebSocket", "TradingView"],
+      title: "Performance Benchmarking Tool",
+      description: "Cross-platform benchmarking tool to compare algorithm performance across different programming languages and implementations.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      tags: ["C++", "Performance", "Benchmarking", "Cross-platform"],
       github: "#",
       demo: "#"
     }
