@@ -4,7 +4,6 @@ import { About } from "@/components/About";
 import { TechStack } from "@/components/TechStack";
 import { Projects } from "@/components/Projects";
 import { LeetCodeStats } from "@/components/LeetCodeStats";
-import { Experience } from "@/components/Experience";
 import { Contact } from "@/components/Contact";
 
 export default function Portfolio() {
@@ -16,7 +15,6 @@ export default function Portfolio() {
       <TechStack />
       <Projects />
       <LeetCodeStats />
-      <Experience />
       <Contact />
       
       {/* Footer */}

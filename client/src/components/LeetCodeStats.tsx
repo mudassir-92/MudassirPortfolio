@@ -58,6 +58,10 @@ export function LeetCodeStats() {
             
             <div className="space-y-4 mb-6">
               <div className="flex justify-between items-center">
+                <span className="text-slate-600 dark:text-slate-400">Problems Solved:</span>
+                <span className="font-bold text-2xl text-orange-500">270+</span>
+              </div>
+              <div className="flex justify-between items-center">
                 <span className="text-slate-600 dark:text-slate-400">Focus Area:</span>
                 <span className="font-semibold text-slate-800 dark:text-white">Data Structures & Algorithms</span>
               </div>
@@ -66,8 +70,8 @@ export function LeetCodeStats() {
                 <span className="font-semibold text-slate-800 dark:text-white">Java, C++</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-slate-600 dark:text-slate-400">Problem Solving:</span>
-                <span className="font-semibold text-green-500">Active</span>
+                <span className="text-slate-600 dark:text-slate-400">Status:</span>
+                <span className="font-semibold text-green-500">Active Solver</span>
               </div>
             </div>
 
